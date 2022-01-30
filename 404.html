@@ -1,0 +1,25 @@
+<hr>
+<p>title: ‘404 - ���ɣ���Ȼ�����������㣡’<br>date: 2022-01-22 20:02:00<br>comments: false<br>permalink: /404.html</p>
+<hr>
+<!-- markdownlint-disable MD039 MD033 -->
+
+<h2 id="����һ�������ڵ�ҳ��"><a href="#����һ�������ڵ�ҳ��" class="headerlink" title="����һ�������ڵ�ҳ��"></a>����һ�������ڵ�ҳ��</h2><p>�Բ����������ʵ�ҳ�治���ڻ�����ɾ����</p>
+<p>Ԥ�ƽ���Լ <span id="timeout">5</span> ��󷵻���ҳ��</p>
+<p>��Ȼ������� <strong>[������](Richard Zhu)</strong> ֱ�ӷ�����ҳ��</p>
+<script>
+let countTime = 5;
+
+function count() {
+
+  document.getElementById('timeout').textContent = countTime;
+  countTime -= 1;
+  if(countTime === 0){
+    location.href = 'Richard Zhu';
+  }
+  setTimeout(() => {
+    count();
+  }, 1000);
+}
+
+count();
+</script>
