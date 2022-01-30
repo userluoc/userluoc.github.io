@@ -303,20 +303,7 @@
 </a>
         
     </nav>
-	 <aside id="sidebar" class="sidebar">
-    {% if theme.sidebar.onmobile %}
-      <div id="sidebar-dimmer"></div>
-    {% endif %}
-    <div class="sidebar-inner"></div>
-
-      {% set display_toc = is_post and theme.toc.enable or is_page and theme.toc.enable %}
-
-<!-- Insert clustrmaps.com -->
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?
-
-cl=ffffff&w=a&t=n&d=4sW93oXXX0e8'></script>
-
-      {% if display_toc and toc(page.content).length > 1 %}
+	
 	<!-- Insert clustrmaps.com -->
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?XXX'></script>
 
